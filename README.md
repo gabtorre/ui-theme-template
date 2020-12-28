@@ -2,4 +2,4 @@
 
 Based on the Github Dark Theme
 
-[DarkTheme](https://i.imgur.com/TZXFXRw.png)
+![DarkTheme](https://i.imgur.com/TZXFXRw.png)

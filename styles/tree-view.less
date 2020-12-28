@@ -18,3 +18,26 @@
     color: @text-color-selected;
   }
 }
+
+// scrollbar customizations
+@scrollbar-width: 11px;
+.scrollbars-visible-always {
+  ::-webkit-scrollbar {
+    width: @scrollbar-width;
+    height: @scrollbar-width;
+    &-track {
+      border: 0;
+      border-radius: 8px;
+      // background-color: transparent !important;
+      //background-color: hsl(0, 0%, 90%) !important;
+      background-color: #262626 !important;
+    }
+    &-thumb {
+      // background-color: rgba(111, 111, 111, 0.2) !important;
+      //background-color: hsl(0, 0%, 70.2%) !important;
+      background-color: #8c8c8c !important;
+      border: 0;
+      border-radius: 8px;
+    }
+  }
+}
